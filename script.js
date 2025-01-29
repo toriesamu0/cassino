@@ -14,7 +14,7 @@ function spinSlots() {
     }
 
     // Subtrair o valor da aposta
-    balance -= 10;
+    balance -= 5;
     document.getElementById("balance").textContent = `Saldo: R$ ${balance}`;
 
     // Ativar animação de rotação nos rolos
